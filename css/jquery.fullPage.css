@@ -69,13 +69,13 @@ html, body {
     margin-top: -38px;
 }
 .fp-controlArrow.fp-prev {
-    left: 180px;
+    left: 100px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent rgba(245,245,240, 1) transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 180px;
+    right: 100px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent rgba(245,245,240, 1);
 }
