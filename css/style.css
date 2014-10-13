@@ -50,12 +50,6 @@ body{
 	color: rgba(56,52,51, 1);
 }
 
-#datlogo {
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 #menu-home {
 	display:block;
 	margin: 10px;
@@ -63,7 +57,6 @@ body{
 	color: #fff;
 	background: rgba(245,240,240, 1);
 }
-
 
 #menu-about {
 	display:block;
@@ -109,12 +102,15 @@ body{
 	text-decoration:none;
 	color: #383433;
 }
+
 #menu li{
     transition: all 0.5s ease-in-out;
 }
+
 #menu li.active{
 	margin: 10px -20px 10px 0;
 }
+
 #menuv li.active a:hover{
 	color: #fff;
 }
@@ -127,6 +123,7 @@ body{
 #menu li:first-child:hover{
     border-left: solid 0px white;
 }
+
 #menu li a,
 #menu li.active a{
     transition: all 0.5s ease-in-out;
@@ -139,6 +136,7 @@ body{
 	padding: 18px;
     height: 100%;    
 }
+
 #menu li.active a{
     padding: 0px;
     height: 80px;
@@ -152,6 +150,11 @@ body{
 	position:fixed;
 	top:0;
 	left:0;
+    transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
 	height: 120%;
 	z-index: 70;
 	width: 10%;
@@ -161,16 +164,12 @@ body{
 	background: rgba(56,52,51, 1);
     transform: rotate(8deg);
     box-shadow: 3px 3px 3px; 5px #000;
-
 }
-
-
 
 #wrapdatcontent{
     float: right;
     width: 95%;
 }    
-
 
 #filldatgap{
 	position:fixed;
@@ -184,8 +183,12 @@ body{
 	margin:-30px 0 0 -80px;
 	background: rgba(56,52,51, 1);
     transform: rotate(8deg);
+    transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
 }    
-
 
 .datcontent{
     width: 95%;
@@ -224,6 +227,7 @@ h1{
     font-size: 50px;
     font-weight: bolder;
 }
+
 h2{
     font-size: 25px;
     line-height: 1.5em;
@@ -233,10 +237,12 @@ h2{
     text-align: right;
     font-size: 18px;
     margin-right: -70%;
-    color: rgba(56,52,51, 0.5);
- 
-    
-    
+    color: rgba(56,52,51, 0.5);  
+}
+
+#datlogo {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .datwrap{
