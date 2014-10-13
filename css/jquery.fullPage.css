@@ -72,12 +72,12 @@ html, body {
     left: 180px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent rgba(245,245,240, 1) transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 100px;
+    right: 180px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent rgba(245,245,240, 1);
 }
 .fp-scrollable {
     overflow: scroll;

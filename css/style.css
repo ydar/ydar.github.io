@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     margin:0;
     padding:0;
-    color:#444;
+    color: rgba(62,39,35, 1);
 }
 q:before,q:after {
     content:'';
@@ -47,7 +47,7 @@ abbr,acronym { border: 0;
  * --------------------------------------- */
 body{
 	font-family: arial,helvetica;
-	color: rgba(56,52,51, 1);
+	color: rgba(62,39,35, 1);
 }
 
 #menu-home {
@@ -63,7 +63,7 @@ body{
 	margin: 10px;
     font-weight: bolder;
 	color: #fff;
-	background: rgba(255,100,71, 1);
+	background: #c41411;
 }
 
 #menu-skillz {
@@ -71,7 +71,7 @@ body{
 	margin: 10px;
     font-weight: bolder;
 	color: #fff;
-	background: rgba(232,191,105, 1);
+	background: #ef6c00;
 }
 
 #menu-digital {
@@ -79,7 +79,7 @@ body{
 	margin: 10px;
     font-weight: bolder;
 	color: #fff;
-	background: rgba(217,255,86, 1);
+	background: #aeea00;
 }
 
 #menu-prepress {
@@ -87,7 +87,7 @@ body{
 	margin: 10px;
     font-weight: bolder;
 	color: #fff;
-	background: rgba(67,232,143, 1);
+	background: #1de9b6 ;
 }
 
 #menu-contact {
@@ -95,12 +95,12 @@ body{
 	margin: 10px;
     font-weight: bolder;
 	color: #fff;
-	background: rgba(145,224,255, 1);
+	background: #0091ea;
 }
 
 #menu li a{
 	text-decoration:none;
-	color: #383433;
+	color: rgba(245,245,240, 1);
 }
 
 #menu li{
@@ -124,6 +124,10 @@ body{
     border-left: solid 0px white;
 }
 
+#menu li.active:hover{
+    border-left: solid 0px white;
+}
+
 #menu li a,
 #menu li.active a{
     transition: all 0.5s ease-in-out;
@@ -140,10 +144,11 @@ body{
 #menu li.active a{
     padding: 0px;
     height: 80px;
-	color: #383433;
+	color: rgba(245,245,240, 1);
     font-size: 800px;
     font-weight: bolder;
     overflow: hidden;
+    box-shadow: -3px 3px 2px rgba(0,0,0,0.3);
 }
 
 #menu{
@@ -157,11 +162,12 @@ body{
     -webkit-transform: rotate(8deg);
 	height: 120%;
 	z-index: 70;
-	width: 10%;
+	width: 15%;
     min-width: 100px;
+    max-width: 200px;
 	padding: 0;
-	margin:-30px 5px 0 0;
-	background: rgba(56,52,51, 1);
+	margin:-30px 0 0 15px;
+	background: rgba(62,39,35, 1);
     transform: rotate(8deg);
     box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
 }
@@ -181,7 +187,7 @@ body{
     min-width: 100px;
 	padding: 0;
 	margin:-30px 0 0 -80px;
-	background: rgba(56,52,51, 1);
+	background: rgba(62,39,35, 1);
     transform: rotate(8deg);
     transform: rotate(8deg);
     -moz-transform: rotate(8deg);
@@ -245,7 +251,7 @@ h2{
     text-align: right;
     font-size: 18px;
     margin-right: -70%;
-    color: rgba(56,52,51, 0.5);  
+    color: rgba(62,39,35, 0.5);
 }
 
 #datlogo {
