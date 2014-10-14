@@ -69,15 +69,13 @@ html, body {
     margin-top: -38px;
 }
 .fp-controlArrow.fp-prev {
-    display: inline-block;
-    margin-left: -50px;
+    left: 120px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent rgba(245,245,240, 1) transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    display: inline-block;
-    margin-left: 640px;
+    right: 120px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent rgba(245,245,240, 1);
 }
@@ -102,15 +100,16 @@ html, body {
     left: 17px;
 }
 .fp-slidesNav{
-    display: inline-block;
-    z-index: 30;
+    position: absolute;
+    z-index: 4;
+    left: 50%;
     opacity: 1;
 }
 .fp-slidesNav.bottom {
-
+    bottom: 17px;
 }
 .fp-slidesNav.top {
- 
+    top: 17px;
 }
 #fp-nav ul,
 .fp-slidesNav ul {
