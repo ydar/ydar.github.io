@@ -235,7 +235,7 @@ body{
 
 
 .datrow{
-    display: inline-block;
+    float: left;
     width: 620px;
     height: 30%;
 	background: #efebe9;
@@ -319,6 +319,7 @@ h2{
     margin-right: auto;
     max-height: 300px;
     max-width: 150px;
+    width: 100%;
 }
 
 
