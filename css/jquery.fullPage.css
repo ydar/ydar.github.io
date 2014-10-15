@@ -59,28 +59,140 @@ html, body {
     position: relative;
 }
 .fp-controlArrow {
-    position: absolute;
     z-index: 4;
-    top: 50%;
-    cursor: pointer;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    margin-top: -38px;
 }
+/*
 .fp-controlArrow.fp-prev {
+    border-style: solid;
     display: inline-block;
-    margin-left: -50px;
-    width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent rgba(245,245,240, 1) transparent transparent;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent green transparent transparent;
+    transition: all 0.5s ease-in-out;
 }
+.fp-controlArrow.fp-prev:hover {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(720deg);
+    transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
+
+
 .fp-controlArrow.fp-next {
+    border-style: solid;
     display: inline-block;
-    margin-left: 640px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent rgba(245,245,240, 1);
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent green;
+    transition: all 0.5s ease-in-out;
 }
+.fp-controlArrow.fp-next:hover {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(720deg);
+    transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
+*/
+
+.fp-controlArrow.fp-prev {
+    position: relative;
+    bottom: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 4;
+    display: inline-block;
+    text-align: center;
+	width: 60px;
+	height: 60px;  
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+}
+
+.fp-controlArrow.fp-next {
+    position: relative;
+    bottom: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 4;
+    display: inline-block;
+    text-align: center;
+    margin-left: 700px;
+	width: 60px;
+	height: 60px; 
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+}
+.spinme:hover {
+    transition: all 0.5s ease-in-out;
+    transform: rotate(720deg);
+    transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
+.spinme {
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 4;
+    display: inline-block;
+    text-align: center;
+	width: 60px;
+	height: 60px; 
+    background: #efebe9;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow-prev {
+    margin-top: 19px;
+    border-style: solid;
+    display: inline-block;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #757575 transparent transparent;
+}
+.arrow-next {
+    margin-top: 19px;
+    border-style: solid;
+    display: inline-block;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #757575;
+}
+
+
+/*
+.circle-prev {
+    position: relative;
+    bottom: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    z-index: 4;
+    display: inline-block;
+    text-align: center;
+    margin-left: -15px;
+	width: 100px;
+	height: 100px;  
+    background-color: yellow;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+}
+.circle-next {
+    position: relative;
+    bottom: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    z-index: 4;
+    display: inline-block;
+    text-align: center;
+    margin-left: 700px;
+	width: 100px;
+	height: 100px; 
+    background: yellow;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+}
+*/
+
 .fp-scrollable {
     overflow: scroll;
 }
@@ -102,7 +214,6 @@ html, body {
     left: 17px;
 }
 .fp-slidesNav{
-    display: inline-block;
     z-index: 30;
     opacity: 1;
 }

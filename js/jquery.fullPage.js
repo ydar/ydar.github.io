@@ -336,7 +336,7 @@
 				slides.parent().wrap('<div class="fp-slides" />');
 
 				$(this).find('.fp-slidesContainer').css('width', sliderWidth + '%');
-				$(this).find('.fp-slides').after('<div class="slidecontent"><div class="contentspacer"></div><div class="fp-controlArrow fp-prev"></div><div class="fp-controlArrow fp-next"></div></div>');
+				$(this).find('.fp-slides').after('<div class="slidecontent"><div class="fp-controlArrow fp-prev"><div class="spinme"><div class="arrow-prev"></div></div></div><div class="fp-controlArrow fp-next"><div class="spinme"><div class="arrow-next"></div></div></div></div>');
 
 				if(options.controlArrowColor!='#fff'){
 					$(this).find('.fp-controlArrow.fp-next').css('border-color', 'transparent transparent transparent '+options.controlArrowColor);
@@ -1351,7 +1351,7 @@
 		* Creates a landscape navigation bar with dots for horizontal sliders.
 		*/
 		function addSlidesNavigation(section, numSlides){
-			section.append('<div class="sliderscontent"><div class="contentspacer2"></div><div class="fp-slidesNav"><ul></ul></div></div>');
+			section.append('<div class="fp-slidesNav"><ul></ul></div>');
 			var nav = section.find('.fp-slidesNav');
 
 			//top or bottom
